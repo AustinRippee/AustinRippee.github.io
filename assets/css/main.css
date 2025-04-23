@@ -649,22 +649,6 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-.logo .fas {
-  transition: transform 0.3s ease;
-  font-size: 2rem;
-  line-height: 5.5rem; /* aligns it vertically if needed */
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.logo .fas:hover {
-  transform: scale(1.1);
-}
-
 /* Image */
 
 	.image {
@@ -1331,6 +1315,22 @@ input, select, textarea {
 			#header .logo .icon:before {
 				font-size: 2rem;
 			}
+
+.logo .fas {
+  transition: transform 0.3s ease;
+  font-size: 2rem;
+  line-height: 5.5rem; /* aligns it vertically if needed */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo .fas:hover {
+  transform: scale(1.1);
+}
 
 		#header .content {
 			border-style: solid;

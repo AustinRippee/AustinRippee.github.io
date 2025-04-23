@@ -1,5 +1,5 @@
 .vscode/
+*.log
 node_modules/
 dist/
-*.log
-.DS_Store
+AustinRippee.github.io/

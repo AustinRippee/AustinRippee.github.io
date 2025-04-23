@@ -73,11 +73,11 @@ input, select, textarea {
 }
 
 .profile-pic {
-	width: 100px; /* or match the icon size */
-	height: 100px;
+	width: 120px; /* or match the icon size */
+	height: 150px;
 	object-fit: cover;
-	border-radius: 50%;
-	border: 4px solid #fff; /* Match the circle’s border */
+	border-radius: 25%;
+	border: 2px solid #fff; /* Match the circle’s border */
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
   }
 

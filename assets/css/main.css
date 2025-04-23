@@ -1330,6 +1330,7 @@ input, select, textarea {
 
 .logo .fas:hover {
   transform: scale(1.1);
+	color: #fF0000;
 }
 
 		#header .content {

@@ -753,7 +753,7 @@ input, select, textarea {
 	}
 
 		ul li {
-			/*padding-left: 0.5em;*/
+			padding-left: 0.5em;
 		}
 
 		ul.alt {
@@ -1389,7 +1389,7 @@ input, select, textarea {
 
 				#header nav ul li a {
 					display: block;
-					min-width: 7.5rem;
+					min-width: 9rem; /*7.5rem before*/
 					height: 2.75rem;
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;

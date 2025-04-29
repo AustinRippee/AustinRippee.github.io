@@ -1555,7 +1555,7 @@ input, select, textarea {
 
 .side-by-side {
 	display: flex;
-	/*align-items: flex-start;  Aligns top of image and text *********************************************************/
+	/*align-items: flex-start;*/
 	align-items: stretch;
 	gap: 2rem;
   }
@@ -1566,7 +1566,7 @@ input, select, textarea {
   }
 
   .image-container img {
-	height: 110%;
+	height: 100%;
 	width: auto;
 	object-fit: cover;
 	display: block;
@@ -1593,7 +1593,7 @@ input, select, textarea {
 
   .course-list {
 	font-size: 0.7rem;
-	max-width: 500px;
+	max-width: 600px;
 	line-height: 1.05;
   }
   

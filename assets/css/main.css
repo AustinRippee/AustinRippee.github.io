@@ -1543,22 +1543,26 @@ input, select, textarea {
 .side-by-side p {
 	padding: 0;
 	margin: 0;
-	font-size: 1rem;
-	line-height: 1;
+	font-size: 1.2rem;
+	line-height: 1.4;
 }
 
 .side-by-side h4 {
+	padding: 0;
+	margin: 0;
 	line-height: 1;
 }
 
 .side-by-side h6 {
+	padding: 0;
+	margin: 0;
 	line-height: 1;
 }
 
   .side-by-side img {
 	max-width: 150px;
 	height: auto;
-	object-fit: cover;
+	object-fit: contain;
   }
 
   @media screen and (max-width: 768px) {

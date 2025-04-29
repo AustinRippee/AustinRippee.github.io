@@ -1543,6 +1543,7 @@ input, select, textarea {
   .side-by-side img {
 	max-width: 150px;
 	height: auto;
+	object-fit: cover;
   }
 
 	#main {

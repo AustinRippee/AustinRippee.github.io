@@ -1536,15 +1536,23 @@ input, select, textarea {
 
 .side-by-side {
 	display: flex;
-	align-items: center;
-	gap: 1rem;
+	align-items: left;
+	gap: 2rem;
   }
   
 .side-by-side p {
 	padding: 0;
 	margin: 0;
-	font-size: 0.8rem;
-	line-height: 0.8;
+	font-size: 1rem;
+	line-height: 1;
+}
+
+.side-by-side h4 {
+	line-height: 1;
+}
+
+.side-by-side h6 {
+	line-height: 1;
 }
 
   .side-by-side img {

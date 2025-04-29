@@ -1580,9 +1580,10 @@ input, select, textarea {
 }
 
 .side-by-side img {
-	max-width: 400px;
+	max-width: 370px;
 	height: auto;
 	object-fit: cover;
+	border: 1px solid white;
   }
 
   .course-list {
@@ -1614,8 +1615,12 @@ input, select, textarea {
 	}
   }
 
-.cert {
+.cert img {
 	align-items: center;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	justify-content: center;
 }
 
 	#main {

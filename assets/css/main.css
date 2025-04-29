@@ -1550,7 +1550,7 @@ input, select, textarea {
 .side-by-side h5 {
 	padding: 0;
 	margin: 0;
-	line-height: 1;
+	line-height: 0.5;
 }
 
 .side-by-side blockquote {
@@ -1560,14 +1560,13 @@ input, select, textarea {
 	line-height: 1;
 	margin: 0 0 2rem 0rem;
 	padding: 0.3rem 0 0 3rem;
-	align-items: center;
 	/* padding: 0.5rem 0 0.5rem 2rem; original values */
 }
 
   .side-by-side img {
 	max-width: 150px;
 	height: auto;
-	object-fit: contain;
+	object-fit: cover;
   }
 
   @media screen and (max-width: 768px) {

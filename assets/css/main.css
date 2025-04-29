@@ -1546,8 +1546,21 @@ input, select, textarea {
 
 .side-by-side {
 	display: flex;
-	align-items: flex-start; /* Aligns top of image and text */
+	/*align-items: flex-start;  Aligns top of image and text *********************************************************/
+	align-items: stretch;
 	gap: 2rem;
+  }
+
+  .image-container {
+	flex-shrink: 0; /* Prevent image from shrinking too small */
+	display: flex;
+  }
+
+  .image-container img {
+	height: 100%;
+	width: auto;
+	object-fit: cover;
+	display: block;
   }
 
 .side-by-side h4 {

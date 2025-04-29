@@ -1534,6 +1534,17 @@ input, select, textarea {
 
 /* Main */
 
+.side-by-side {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+  }
+  
+  .side-by-side img {
+	max-width: 150px;
+	height: auto;
+  }
+
 	#main {
 		-moz-flex-grow: 1;
 		-webkit-flex-grow: 1;

@@ -1580,12 +1580,13 @@ input, select, textarea {
 }
 
 .side-by-side h5 {
-	margin: 0.3rem;
+	padding: 0;
+	margin: 0.6rem;
 	line-height: 0.5;
 }
 
 .side-by-side img {
-	max-width: 283.5px;
+	max-width: 350px;
 	height: auto;
 	object-fit: cover;
   }

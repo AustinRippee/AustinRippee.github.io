@@ -1553,10 +1553,17 @@ input, select, textarea {
 	line-height: 1;
 }
 
-.side-by-side h6 {
+.side-by-side h5 {
 	padding: 0;
 	margin: 0;
 	line-height: 1;
+}
+
+.side-by-side blockquote {
+	border-left: solid 20px #ffffff;
+	font-style: italic;
+	margin: 0 0 2rem 1rem;
+	padding: 0.3rem 0 0 3rem;
 }
 
   .side-by-side img {

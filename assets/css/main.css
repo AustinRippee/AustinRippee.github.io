@@ -1580,7 +1580,7 @@ input, select, textarea {
 
 .side-by-side h5 {
 	padding-left: 0;
-	margin-top: 0;
+	margin-top: 0.05;
 	margin-bottom: 0.8rem;
 	line-height: 0.5;
 }

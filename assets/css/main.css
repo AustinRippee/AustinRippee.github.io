@@ -1544,6 +1544,15 @@ input, select, textarea {
 	padding: 0.5rem 0 0.5rem 2rem;
 }*/
 
+.main-edu p {
+	margin-top: 0;
+	font-size: 0.7rem;
+}
+
+.main-edu h4 {
+	margin-bottom: 0.5rem;
+}
+
 .side-by-side {
 	display: flex;
 	/*align-items: flex-start;  Aligns top of image and text *********************************************************/
@@ -1588,7 +1597,7 @@ input, select, textarea {
   }
   
   .course-list p {
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.3rem;
   }
 
   @media screen and (max-width: 768px) {

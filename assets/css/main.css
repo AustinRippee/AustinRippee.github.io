@@ -1530,16 +1530,16 @@ input, select, textarea {
 
 .side-by-side {
 	display: flex;
-	align-items: right;
+	align-items: flex-start; /* Aligns top of image and text */
 	gap: 2rem;
   }
   
-.side-by-side p {
+/*.side-by-side p {
 	padding: 0;
 	margin: 0;
 	font-size: 0.65rem;
 	line-height: 0.65;
-}
+}*/
 
 .side-by-side h4 {
 	padding: 0;
@@ -1553,31 +1553,46 @@ input, select, textarea {
 	line-height: 0.5;
 }
 
-.side-by-side blockquote {
-	border-left: solid 4px #ffffff; /* do not change this */
+/*.side-by-side blockquote {
+	border-left: solid 4px #ffffff;
 	font-style: italic;
 	font-size: 0.75rem;
 	line-height: 1.05;
 	margin: 0 0 2rem 0rem;
 	padding: 0.5rem 0 0.5rem 2rem;
-}
+}*/
 
-  .side-by-side img {
-	max-width: 150px;
+.side-by-side img {
+	max-width: 283.5px;
 	height: auto;
 	object-fit: cover;
+  }
+
+  .course-list {
+	font-size: 0.9rem;
+	line-height: 1.6;
+	max-width: 500px;
+  }
+  
+  .course-list p {
+	margin-bottom: 0.5rem;
   }
 
   @media screen and (max-width: 768px) {
 	.side-by-side {
 	  flex-direction: column;
 	  align-items: center;
-	  text-align: center;
+	  text-align: left;
 	}
   
 	.side-by-side img {
 	  max-width: 80%;
 	  height: auto;
+	}
+  
+	.course-list {
+	  text-align: left;
+	  padding: 1rem;
 	}
   }
 

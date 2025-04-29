@@ -1547,10 +1547,11 @@ input, select, textarea {
 .main-edu p {
 	margin-top: 0;
 	font-size: 0.7rem;
+	margin-bottom: 0;
 }
 
 .main-edu h3 {
-	margin-bottom: 0.15rem;
+	margin-bottom: 0.1rem;
 }
 
 .side-by-side {
@@ -1597,6 +1598,7 @@ input, select, textarea {
   }
   
   .course-list p {
+	margin-top: 0.05rem;
 	margin-bottom: 0.3rem;
   }
 

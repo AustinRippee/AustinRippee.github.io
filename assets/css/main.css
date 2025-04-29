@@ -1530,7 +1530,7 @@ input, select, textarea {
 
 .side-by-side {
 	display: flex;
-	align-items: left;
+	align-items: center;
 	gap: 2rem;
   }
   

@@ -1527,12 +1527,6 @@ input, select, textarea {
 		}
 
 /* Main */
-
-.side-by-side {
-	display: flex;
-	align-items: flex-start; /* Aligns top of image and text */
-	gap: 2rem;
-  }
   
 /*.side-by-side p {
 	padding: 0;
@@ -1540,6 +1534,21 @@ input, select, textarea {
 	font-size: 0.65rem;
 	line-height: 0.65;
 }*/
+
+/*.side-by-side blockquote {
+	border-left: solid 4px #ffffff;
+	font-style: italic;
+	font-size: 0.75rem;
+	line-height: 1.05;
+	margin: 0 0 2rem 0rem;
+	padding: 0.5rem 0 0.5rem 2rem;
+}*/
+
+.side-by-side {
+	display: flex;
+	align-items: flex-start; /* Aligns top of image and text */
+	gap: 2rem;
+  }
 
 .side-by-side h4 {
 	padding: 0;
@@ -1552,15 +1561,6 @@ input, select, textarea {
 	margin: 0;
 	line-height: 0.5;
 }
-
-/*.side-by-side blockquote {
-	border-left: solid 4px #ffffff;
-	font-style: italic;
-	font-size: 0.75rem;
-	line-height: 1.05;
-	margin: 0 0 2rem 0rem;
-	padding: 0.5rem 0 0.5rem 2rem;
-}*/
 
 .side-by-side img {
 	max-width: 283.5px;
@@ -1576,7 +1576,6 @@ input, select, textarea {
   
   .course-list p {
 	margin-bottom: 0.5rem;
-	font-size: 0.7rem;
   }
 
   @media screen and (max-width: 768px) {

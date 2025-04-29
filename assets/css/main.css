@@ -1538,13 +1538,13 @@ input, select, textarea {
 	padding: 0;
 	margin: 0;
 	font-size: 0.6rem;
-	line-height: 0.5;
+	line-height: 0.55;
 }
 
 .side-by-side h4 {
 	padding: 0;
 	margin: 0;
-	line-height: 1;
+	line-height: 0.5;
 }
 
 .side-by-side h5 {

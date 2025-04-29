@@ -1330,7 +1330,7 @@ input, select, textarea {
 
 .logo .fas:hover {
   transform: scale(1.1);
-	color: #2c1d22;
+	color: #c96161;
 }
 
 		#header .content {
@@ -1543,7 +1543,7 @@ input, select, textarea {
 .side-by-side p {
 	padding: 0;
 	margin: 0;
-	font-size: 1rem;
+	font-size: 0.6rem;
 }
 
   .side-by-side img {

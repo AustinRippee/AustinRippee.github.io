@@ -1569,9 +1569,10 @@ input, select, textarea {
   }
 
   .course-list {
-	font-size: 0.9rem;
+	font-size: 0.7rem;
 	line-height: 1.6;
 	max-width: 500px;
+	line-height: 1.05;
   }
   
   .course-list p {

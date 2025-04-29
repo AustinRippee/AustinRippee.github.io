@@ -1540,10 +1540,29 @@ input, select, textarea {
 	gap: 1rem;
   }
   
+.side-by-side p {
+	padding: 0;
+	margin: 0;
+	font-size: 1rem;
+}
+
   .side-by-side img {
 	max-width: 150px;
 	height: auto;
 	object-fit: cover;
+  }
+
+  @media screen and (max-width: 768px) {
+	.side-by-side {
+	  flex-direction: column;
+	  align-items: center;
+	  text-align: center;
+	}
+  
+	.side-by-side img {
+	  max-width: 80%;
+	  height: auto;
+	}
   }
 
 	#main {

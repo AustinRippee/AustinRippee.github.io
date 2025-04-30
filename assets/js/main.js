@@ -296,6 +296,7 @@
 						.appendTo($this)
 						.on('click', function() {
 							//location.hash = '';
+							history.pushState(null, null, window.location.pathname);
 							$main._hide();
 						});
 

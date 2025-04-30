@@ -295,7 +295,8 @@
 					$('<div class="close">Close</div>')
 						.appendTo($this)
 						.on('click', function() {
-							location.hash = '';
+							//location.hash = '';
+							$main._hide();
 						});
 
 				// Prevent clicks from inside article from bubbling.

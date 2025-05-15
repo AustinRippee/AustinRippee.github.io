@@ -1737,6 +1737,11 @@ body.is-preload #header .content .inner {
 	}
 }
 
+.cert {
+	align-items: center;
+	justify-content: center;
+}
+
 .cert img {
 	align-items: center;
 	width: 150px;

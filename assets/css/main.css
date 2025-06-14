@@ -2064,6 +2064,8 @@ ul.expander.fit.stacked {
 	padding: 1rem;
 	font-size: 0.8rem;
 	background-color: transparent;
+	white-space: normal;
+	height: auto;
 	transition:
 		padding 0.3s ease,
 		background-color 0.3s ease,
@@ -2103,10 +2105,4 @@ ul.expander.fit.stacked {
 .expand-content.open {
   max-height: 1000px; /* large enough to fit content */
   opacity: 1;
-}
-
-@media (max-width: 600px) {
-  .full-width-expander {
-    font-size: 0.8rem; /* smaller text on mobile */
-  }
 }

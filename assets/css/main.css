@@ -2073,6 +2073,13 @@ ul.expander.fit.stacked {
 		box-shadow 0.3s ease;
 }
 
+@media (max-width: 600px) {
+  .full-width-expander,
+  .full-width-expander span {
+    line-height: 1.1;
+  }
+}
+
 .full-width-expander img {
 	height: 1.5rem;
 	width: auto;

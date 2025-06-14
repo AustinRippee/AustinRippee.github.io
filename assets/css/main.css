@@ -2104,3 +2104,9 @@ ul.expander.fit.stacked {
   max-height: 1000px; /* large enough to fit content */
   opacity: 1;
 }
+
+@media (max-width: 600px) {
+  .full-width-expander {
+    font-size: 0.8rem; /* smaller text on mobile */
+  }
+}

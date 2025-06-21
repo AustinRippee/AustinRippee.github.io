@@ -1,1 +1,1 @@
-Personal Project Page
+This is my personal project website. It includes an about me section, my current and completed projects, a background of my experience, and finally a detailed list of my educational background with any courses and certifications I have.

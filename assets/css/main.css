@@ -776,6 +776,10 @@ button {
 	gap: 2rem;
 }
 
+.side-by-side, .side-by-side > div {
+	width: 100%;
+}
+
 .side-by-side img {
 	max-width: 370px;
 	height: auto;
@@ -957,10 +961,10 @@ ul.expander.fit.stacked {
 	white-space: normal;
 	height: auto;
 	transition:
-		padding 0.3s ease,
-		background-color 0.3s ease,
-		font-size 0.3s ease,
-		box-shadow 0.3s ease;
+		padding 0.5s ease,
+		background-color 0.5s ease,
+		font-size 0.5s ease,
+		box-shadow 0.5s ease;
 }
 
 @media (max-width: 480px) {
@@ -997,10 +1001,10 @@ ul.expander.fit.stacked {
   max-height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: max-height 0.4s ease, opacity 0.4s ease;
+  transition: max-height 0.6s ease, opacity 0.4s ease;
 }
 .expand-content.open {
-  max-height: 1000px;
+  max-height: 10000px;
   opacity: 1;
 }
 
@@ -1680,6 +1684,7 @@ dl dd {
 .table-wrapper {
 	-webkit-overflow-scrolling: touch;
 	overflow-x: auto;
+	width: 100%;
 }
 
 table {

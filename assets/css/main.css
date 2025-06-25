@@ -1001,10 +1001,9 @@ ul.expander.fit.stacked {
   max-height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: max-height 0.6s ease, opacity 0.4s ease;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
 }
 .expand-content.open {
-  max-height: 10000px;
   opacity: 1;
 }
 

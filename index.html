@@ -524,17 +524,28 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 
-	<script>
-		document.querySelectorAll(".expander").forEach(button => {
-			button.addEventListener("click", function () {
-				const content = this.nextElementSibling;
-				if (content && content.classList.contains("expand-content")) {
-					content.classList.toggle("open");
-					this.classList.toggle("open");
-				}
-			});
+<script>
+	document.querySelectorAll(".expander").forEach(button => {
+		button.addEventListener("click", function () {
+			const content = this.nextElementSibling;
+			const isOpen = content.classList.contains("open");
+
+			if (isOpen) {
+				// Collapse
+				content.style.maxHeight = content.scrollHeight + "px"; // Set current height first
+				requestAnimationFrame(() => {
+					content.style.maxHeight = "0px";
+				});
+			} else {
+				// Expand
+				content.style.maxHeight = content.scrollHeight + "px";
+			}
+
+			content.classList.toggle("open");
+			this.classList.toggle("open");
 		});
-	</script>
+	});
+</script>
 
 </body>
 

@@ -23,7 +23,7 @@
 					<h4>| Project Portfolio |</h4>
 					<p><a href="https://www.linkedin.com/in/austinrippee/">LinkedIn</a> | <a
 							href="https://github.com/AustinRippee">GitHub</a> |
-						<a href="#contact">Contact</a>
+						<!--<a href="#contact">Contact</a>-->
 					</p>
 				</div>
 			</div>
@@ -43,22 +43,22 @@
 			<!-- About -->
 			<article id="about">
 				<h2 class="major">About</h2>
-				<span class="image main"><img src="images/headshot.png" alt="" height="20%" , width="20%" /></span>
+				<div class="wrap">
+				<span class="image about"><img src="images/headshot.png" alt="" height="20%" , width="20%" /></span>
 				<p>Hello! I am Austin Rippee, an aspiring software engineer with a background in data analytics and web
 					development. I graduated from Saginaw Valley State Unviersity in 2023 with a degree in Computer
 					Information
 					Systems. I am currently specializing in Java (Spring & REST APIs) where most of my focus is. Other
 					skills include but are not
-					limited to Python (Pandas, NumPy, SciPy, MatPlotLib), SQL (Oracle, MySQL), VB.NET, JavaScript, and
+					limited to Python (Pandas, NumPy, MatPlotLib), SQL (Oracle, MySQL), VB.NET, JavaScript, and
 					AWS. I have personal interests in health and fitness and hope to bring that passion into my
 					professional
 					career.</p>
-				<p> Below is my resume (last update was January 2025). Since then, I have taken up a mentorship with an
-					SE from my current company, I have gained the AWS Certified Cloud Practiioner Certification and
-					started a few projects.
+				<p> Below is my resume (last update was June 2025).
 				</p>
+				</div>
 				<ul class="actions">
-					<li><a href="files/Austin Rippee Resume.pdf" class="button icon solid fa-file"
+					<li><a href="files/Austin_Rippee_Resume_2025.pdf" class="button icon solid fa-file"
 							target="_blank">Resume</a></li>
 				</ul>
 				<p>Outside of programming, I am passionate about running. I joined my middle school cross country team
@@ -91,7 +91,7 @@
 				<h2 class="major">Projects</h2>
 				<button class="expander full-width-expander"><span class="svsu logo">
 						<img src="images/java.png" alt="" /></span>
-					VO2day
+					VO2sDay
 					<span class="arrow fas fa-angle-down"></span>
 				</button>
 				<div class="expand-content">
@@ -129,13 +129,43 @@
 				<br>
 				<button class="expander full-width-expander"><span class="svsu logo">
 						<img src="images/python.png" alt="" /></span>
-					Top4Records OR Run_22
+					Run_22
 					<span class="arrow fas fa-angle-down"></span>
 				</button>
 				<div class="expand-content">
 					<div>
 						<br>
-						<p> Not sure which one to pick yet.
+						<p> Performed an in-depth analysis of personal Garmin running data during 2022 using Python,
+							importing and processing a CSV file from
+							Excel generating actionable insights using Pandas into long-term performance trends and
+							improvement areas.
+
+						</p>
+					</div>
+				</div>
+				<br>
+				<button class="expander full-width-expander"><span class="svsu logo">
+						<img src="images/python.png" alt="" /></span>
+					SimpleWebScraper
+					<span class="arrow fas fa-angle-down"></span>
+				</button>
+				<div class="expand-content">
+					<div>
+						<br>
+						<p>
+						</p>
+					</div>
+				</div>
+				<br>
+				<button class="expander full-width-expander"><span class="svsu logo">
+						<img src="images/python.png" alt="" /></span>
+					Top_4_Records
+					<span class="arrow fas fa-angle-down"></span>
+				</button>
+				<div class="expand-content">
+					<div>
+						<br>
+						<p>
 						</p>
 					</div>
 				</div>
@@ -153,7 +183,7 @@
 					</div>
 				</div>
 				<br>
-				<br><br>
+				<br>
 				<section>
 					<h3 class="major">Contact Me</h3>
 					<ul class="icons">
@@ -185,15 +215,14 @@
 						</p>
 						<h3 style="color:#b84c13;">Customer Support Analyst I <em>(August 2024 - Present)</em></h3>
 						<p>Delivered exceptional client support by managing over 30 accounts and resolving approximately
-							40
-							cases simultaneously using tools such as Salesforce, Oracle SQL Developer, and Microsoft
-							Excel;
-							performed daily SQL queries on large datasets to diagnose and resolve client issues, while
-							maintaining a 10/10 customer satisfaction survey score.<br>
-							Facilitated successful customer implementations and training sessions while hosting
-							bi-weekly
-							partnership status calls to ensure quality metrics are maintained; collaborated
-							cross-functionally to escalate and resolve issues efficiently, leveraging SQL insights to
+							40 cases simultaneously using
+							tools such as Salesforce, Oracle SQL Developer, and Microsoft Excel. Performed daily SQL
+							queries on large datasets to diagnose
+							and resolve client issues, while maintaining a high customer satisfaction survey score.</p>
+						<p>Facilitated successful customer implementations and training sessions while hosting bi-weekly
+							partnership status calls to ensure
+							quality metrics are maintained. Collaborated cross-functionally to escalate and resolve
+							issues efficiently, leveraging SQL insights to
 							address complex client challenges.
 						</p>
 					</div>
@@ -209,7 +238,8 @@
 					<div>
 						<span class="image main"><img src="images/PCSP.png" alt="" /></span>
 						<h3 style="color:#95a552;">FrontEnd Web Developer <em>(March 2024 - August 2024)</em></h3>
-						<p>Developed website landing pages, written in HTML, CSS, and JavaScript, for various computer
+						<p>Developed website landing pages, written in HTML, CSS, and base JavaScript, for various
+							computer
 							servers, workstations, and parts. Utilized Google SEO to better market products on related
 							pages.</p>
 
@@ -524,28 +554,28 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 
-<script>
-	document.querySelectorAll(".expander").forEach(button => {
-		button.addEventListener("click", function () {
-			const content = this.nextElementSibling;
-			const isOpen = content.classList.contains("open");
+	<script>
+		document.querySelectorAll(".expander").forEach(button => {
+			button.addEventListener("click", function () {
+				const content = this.nextElementSibling;
+				const isOpen = content.classList.contains("open");
 
-			if (isOpen) {
-				// Collapse
-				content.style.maxHeight = content.scrollHeight + "px"; // Set current height first
-				requestAnimationFrame(() => {
-					content.style.maxHeight = "0px";
-				});
-			} else {
-				// Expand
-				content.style.maxHeight = content.scrollHeight + "px";
-			}
+				if (isOpen) {
+					// Collapse
+					content.style.maxHeight = content.scrollHeight + "px"; // Set current height first
+					requestAnimationFrame(() => {
+						content.style.maxHeight = "0px";
+					});
+				} else {
+					// Expand
+					content.style.maxHeight = content.scrollHeight + "px";
+				}
 
-			content.classList.toggle("open");
-			this.classList.toggle("open");
+				content.classList.toggle("open");
+				this.classList.toggle("open");
+			});
 		});
-	});
-</script>
+	</script>
 
 </body>
 

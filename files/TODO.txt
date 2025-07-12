@@ -1,0 +1,5 @@
+Website Checklist
+======================================
+Whole Page:
+	Fix '#' link when clicking outside of box
+	Fix mobile navigation alignment
